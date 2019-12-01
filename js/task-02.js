@@ -48,14 +48,14 @@ invokeInventoryAction("Аптечка", inventory.add);
 invokeInventoryAction("Трубка", inventory.add);
 
 // inventory.add("Трубка");
-// Invoking action on Аптечка
-// Adding Аптечка to inventory
+// Invoking action on Трубка
+// Adding Трубка to inventory
 
 invokeInventoryAction("Бинокль", inventory.add);
 
 // inventory.add("Бинокль");
-// Invoking action on Аптечка
-// Adding Аптечка to inventory
+// Invoking action on Бинокль
+// Adding Бинокль to inventory
 
 
 console.log(inventory.items); // ['Монорельса', 'Фильтр', 'Аптечка', 'Трубка', 'Бинокль']
@@ -66,8 +66,8 @@ invokeInventoryAction("Фильтр", inventory.remove);
 // Removing Фильтр from inventory
 
 invokeInventoryAction("Трубка", inventory.remove);
-// inventory.remove("Фильтр");
-// Invoking action on Фильтр
-// Removing Фильтр from inventory
+// inventory.remove("Трубка");
+// Invoking action on Трубка
+// Removing Трубка from inventory
 
 console.log(inventory.items); // ['Монорельса', 'Аптечка', 'Бинокль']
