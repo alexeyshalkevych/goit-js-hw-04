@@ -1,24 +1,5 @@
 "use strict";
 
-//Исправь ошибки которые будут в консоли, чтобы скрипт заработал.
-// const Inv = function(items = ["Монорельса", "Фильтр"]) {
-//   this.items = items;
-// };
-
-// const inventory = new Inv();
-
-// Inv.prototype.add = bind(function(itemName) {
-//   console.log(`Adding ${itemName} to inventory`);
-
-//   this.items.push(itemName);
-// });
-
-// Inv.prototype.remove = bind(function(itemName) {
-//   console.log(`Removing ${itemName} from inventory`);
-
-//   this.items = this.items.filter(item => item !== itemName);
-// });
-
 const inventory = {
   items: ["Монорельса", "Фильтр"],
   add(itemName) {
